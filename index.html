@@ -4,91 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Chessboard</title>
+    <style>
+        div {
+            box-sizing: 20px;
+            padding: 18px;
+            border: 2px solid;
+            display: inline-block;
+        }
+        .black {
+            background-color: black;
+        }
+        .white {
+            background-color: white;
+        }
+        .newline {
+            display: block;
+            padding: 0px;
+            border: 0px;
+        }
+    </style>
 </head>
 <body>
-    <table border="1" cellpadding="15px">
-        <tbody>
-            <tr>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-                <td bgcolor="black" width="10" height="10"></td>
-                <td bgcolor="white" width="10" height="10"></td>
-            </tr>
-        </tbody>
-    </table>
+    <div style="padding:5px; border:2px solid">
+        <div class="newline">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="newline">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="newline">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="newline">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>        
+        <div class="newline">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="newline">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>        
+        <div class="newline">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="newline">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>        
+    </div>
 </body>
 </html>
