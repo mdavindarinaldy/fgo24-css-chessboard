@@ -1,6 +1,6 @@
-# HTML Example Project
+# Project Chessboard
 
-This project is for training only. This project uses HTML Table tag to make a chessboard. 
+This project is for training only. This project uses HTML & CSS to make a chessboard (Without tag table).
 
 ## Preview
 
@@ -10,7 +10,7 @@ This project is for training only. This project uses HTML Table tag to make a ch
 
 1. Clone this project
 ```
-git clone https://github.com/mdavindarinaldy/fgo24-html-chessboard.git
+git clone https://github.com/mdavindarinaldy/fgo24-css-chessboard.git
 ```
 2. Install dependencies
 ```
